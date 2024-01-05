@@ -25,12 +25,12 @@
 
 /* article styles */
 
-.article{
+.article, #cow-type{
     width: 80%;
     margin: 60px auto;
    background: linear-gradient(10deg,pink,rgba(0, 0, 255, 0.589),red);
 }
-.article h2{
+.article h2, #cow-type{
     text-align: center;
     font-size: 48px;
     border-style: solid;
@@ -53,4 +53,20 @@
     background-color: coral;
     display: inline;
     width: 600px;
+}
+
+/* image style */
+
+.cow-images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.cow-images div{
+    width: 300px;
+}
+.cow-images img{
+    width: 100%;
 }
